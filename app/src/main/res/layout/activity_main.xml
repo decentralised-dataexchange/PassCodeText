@@ -27,7 +27,7 @@
         android:padding="32dp"
         android:textSize="30sp"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:oev_box_style="@string/style_rounded_underline"
+        app:oev_box_style="rounded_box"
         app:oev_mask_character="*"
         app:oev_mask_input="true"
         app:oev_primary_color="#CCFF00"

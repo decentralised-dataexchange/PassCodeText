@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         otpEditText = findViewById(R.id.oev_view);
+        otpEditText.setMaxLength(2);
         textDisplay = findViewById(R.id.text_display);
         submitButton = findViewById(R.id.submit_button);
 
