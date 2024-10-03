@@ -346,6 +346,14 @@ public class OtpEditText extends AppCompatEditText implements TextWatcher {
         }
     }
 
+    public void setMaxLength(int maxLength) {
+        mMaxLength = maxLength;
+        mNumChars = mMaxLength;
+
+        invalidate();
+        requestLayout();
+    }
+
     @Override
     public void setOnClickListener(OnClickListener l) {
         mClickListener = l;
